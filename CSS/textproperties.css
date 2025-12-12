@@ -1,0 +1,23 @@
+#heading{
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+    word-spacing: 30px;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px black;
+}
+
+p{
+    line-height: 20px;
+    font-size: 30px;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    box-shadow: 10px 10px 10px black;
+}

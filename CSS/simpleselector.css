@@ -1,0 +1,29 @@
+*{
+       height: 300px;
+    width: 100%;
+}
+
+
+
+/* div{
+    height: 200px;
+    width: 100px;
+    background-color: black;
+} */
+
+.redbox{
+    background-color: red;
+}
+
+.greenbox{
+    background-color: green;
+}
+
+/* .redbox,.greenbox{
+
+     height: 300px;
+    width: 100%;
+
+} */
+
+
