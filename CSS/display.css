@@ -1,0 +1,25 @@
+h1{
+    display: inline;
+}
+b,i{
+    display: block;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    display: inline-block;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    display: inline-block;
+}
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    display: inline-block;
+}
+
