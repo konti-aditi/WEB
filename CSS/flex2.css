@@ -1,0 +1,30 @@
+#parent{
+    height: 600px;
+    width: 100%;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#child1{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+}
+
+
+#child2{
+    height: 300px;
+    width: 200px;
+    background-color: green;
+}
+
+
+#child3{
+    height: 300px;
+    width: 200px;
+    background-color: greenyellow;
+}
