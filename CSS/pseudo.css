@@ -1,0 +1,59 @@
+div{
+    height: 300px;
+    width: 100%;
+}
+
+/*
+div:nth-child(1){
+    background-color: black;
+}
+div:nth-child(2){
+    background-color: rgb(255, 0, 0);
+}
+div:nth-child(3){
+    background-color: black;
+}
+div:nth-child(4){
+    background-color: rgb(255, 0, 0);
+}
+div:nth-child(5){
+    background-color: black;
+}
+div:nth-child(6){
+    background-color: rgb(255, 0, 0);
+} */
+
+
+div:nth-child(odd){
+    background-color: rebeccapurple;
+}
+
+div:nth-child(even){
+    background-color: aquamarine;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: aquamarine;
+}
+
+a:active{
+    color: azure;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    transition-duration: 2s;
+}
+
+#box:hover{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}

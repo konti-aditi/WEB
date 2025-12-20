@@ -1,0 +1,25 @@
+article>h2{
+    background-color: green;
+}
+
+article>div>h2{
+    background-color: rebeccapurple;
+}
+
+article>section>div>h2{
+    background-color: aqua;
+}
+
+
+article+h2{
+    background-color: bisque;
+}
+
+#container~h2{
+    background-color: brown;
+}
+
+#container .h2{
+    background-color: orange;
+}
+
