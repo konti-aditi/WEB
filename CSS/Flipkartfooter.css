@@ -1,0 +1,58 @@
+#topfooter{
+    /* margin-top: 800px; */
+    height: 290px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#about{
+    display: flex;
+    display: block;
+}
+
+.anc{
+    color: white;
+    text-decoration: none;
+}
+
+#consumer{
+    height: 290px;
+    width: 150px;
+    border: 1px  solid gray;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    align-items: center;
+    
+}
+
+.h3{
+    color: gray;
+}
+
+#mail>#h4{
+    color: white;
+}
+
+#address>#h4{
+    color: white;
+}
+
+#bottomfooter{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid white;
+    
+    
+   
+}
+
+
+
+
+

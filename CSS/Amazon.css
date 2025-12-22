@@ -1,0 +1,18 @@
+#amazonheader{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid white;
+    
+}
+
+#navbar>div{
+    display: flex;
+    justify-content: center;
+}
+
+#logo>img{
+    height: 60px;
+    width: 90px;
+}
+
