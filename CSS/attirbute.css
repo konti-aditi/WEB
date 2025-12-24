@@ -1,0 +1,27 @@
+/* #input[type]{
+    border: 2px solid green;
+} */
+
+
+/* input[type="email"]{
+    border: 2px solid brown;
+}
+
+div[id="box1"]{
+    height: 100px;
+    width: 100px;
+    border: 1px solid paleturquoise;
+}
+
+div[id="container"]{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rebeccapurple;
+} */
+
+
+div[id$="div"]{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+}

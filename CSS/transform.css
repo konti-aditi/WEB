@@ -1,0 +1,21 @@
+body{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin-top: 300px;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#box:hover{
+    /* transform: scale(2); */
+    transform: rotate(2080deg);
+}
