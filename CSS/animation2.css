@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: box;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    animation-direction: alternate;
+
+}
+
+@keyframes box{
+    to{
+        rotate: 360deg;
+    }
+}
+
+#box1{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(245, 190, 190);
+}
+
+#box2{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(244, 152, 152);
+}
+
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(244, 102, 102);
+}
+
+#box4{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(250, 55, 55);
+}
+
+#box5{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+
+
+
+

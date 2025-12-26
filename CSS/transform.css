@@ -11,11 +11,14 @@ body{
     background-color: red;
     margin-top: 300px;
     transition-duration: 2s;
-    transition-delay: 1s;
-    transition-timing-function: ease-in-out;
+    /* transition-delay: 1s;
+    transition-timing-function: ease-in-out; */
 }
 
 #box:hover{
     /* transform: scale(2); */
-    transform: rotate(2080deg);
+    /* transform: rotate(2080deg); */
+    /* transform:translate(300px, 300px); */
+    transform: skew(200deg);
+
 }

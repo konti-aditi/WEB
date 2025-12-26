@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes box{
+    
+        25% {
+            background-color: blue;
+            transform: rotate(90deg);
+        }
+        50% {
+            background-color: rgb(70, 70, 83);
+            transform: rotate(180deg);
+        }
+        75% {
+            background-color: rgb(4, 4, 30);
+            transform: rotate(90deg);
+        }
+        100% {
+            background-color: rgb(64, 64, 83);
+            transform: rotate(360deg);
+        }
+         
+}
