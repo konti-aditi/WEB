@@ -1,18 +1,44 @@
-#amazonheader{
-    height: 60px;
+#navbar{
+    height: 80px;
     width: 100%;
     background-color: black;
     border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     
+   
+
 }
 
-#navbar>div{
+#box{
+    height: 70px;
+    width: 50px;
+    border: 1px solid white;
+}
+
+#loc{
+    height: 70px;
+    width: 180px;
+    border: 1px solid white;
+    color: rgb(135, 133, 133);
+    font-weight: 100;
+    margin-left: 120px;
+    margin-top: -85px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-#logo>img{
-    height: 60px;
-    width: 90px;
+#loc>h3{
+    margin-top: -20px;
+    color: white;
+    margin-left: 10px;
 }
 
+#searchbar{
+    height: 40px;
+    margin-left: 50px;
+    width: 700px;
+    border-radius: 4px;
+}
