@@ -44,8 +44,8 @@ let info1 = `My name is $(sname) I am from $(place) and my mobile number is $(mo
 
 
 
-let a = 10;
-let b = "10" ; 
+// let a = 10;
+// let b = "10" ; 
 
 console.log(a === b);
 
