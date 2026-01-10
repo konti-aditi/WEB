@@ -4,8 +4,8 @@
 // console.log(typeof x);
 
 
-let x=true;
-x=nullconsole.log(x);
+// let x=true;
+// x=nullconsole.log(x);
 
 
 let y;
@@ -47,7 +47,7 @@ let info1 = `My name is $(sname) I am from $(place) and my mobile number is $(mo
 // let a = 10;
 // let b = "10" ; 
 
-console.log(a === b);
+// console.log(a === b);
 
 
 alert ("Login Successful");
