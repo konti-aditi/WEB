@@ -1,4 +1,6 @@
 
+
+
 //MIMP
 
 
@@ -7,7 +9,7 @@ let higherFunction=(a, b,cb)=>{
     console.log(b);
     cb()
 }
-higherFunction(10, "hii", function(){
+higherFunction(10, "hii", ()=>{
     console.log("Hello World");
     
 })
