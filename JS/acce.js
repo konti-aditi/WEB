@@ -7,7 +7,6 @@ function size(){
     cat.style.height="100px"
     dog.style.height="100px"
 
-
     cat.style.borderRadius="100%"
 
 }
