@@ -41,8 +41,16 @@
 
 function userData(){
 
-   user.document.getElementById("name")
-    mobile.document.getElementById("phone")
+  let user = document.getElementById("name").value
+  let mobile = document.getElementById("phone").value
+
+   let display = {
+    name:user ,
+    mobileno:mobile
+   }
+
+console.log(display);
+
 
 }
 
