@@ -18,9 +18,6 @@ function register(){
 
     console.log(multipleUsers);
     
- 
-    
-
 }
 
 
