@@ -27,6 +27,22 @@
                 let username=document.getElementById("username").value;
                 let password=document.getElementById("password").value;
 
+
+                let findUser = allUsers.find((ele)=>{
+                    return ele.username===username&&ele.password===password
+                })
+
+                console.log(findUser);
+
+
+                if(findUser){
+                    window.location.href="./Home.html"
+                }
+                else
+                {
+                    alert("invalid Credentials")
+                }
+                
             }
 
         }
