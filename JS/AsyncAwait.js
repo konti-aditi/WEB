@@ -143,7 +143,8 @@ setTimeout(()=>{
 console.log("End");
 
 
-
+//rating above 3 below 3 
+//availibility status and stock
 
 
 
